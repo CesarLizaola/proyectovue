@@ -1,5 +1,5 @@
 <template>
-    <Header mensaje="texto hola"></Header>
+    <Header mensaje=""></Header>
 <div class="container">
     <Sidebar></Sidebar>
 <div class="content">
