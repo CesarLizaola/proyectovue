@@ -1,3 +1,8 @@
+## Autor
+- Nombre: Cesar Lizaola Navarro
+- Email: a23311094@uthermosillo.edu.mx 
+- GitHub: [@CesarLizaola](https://github.com/juanperez)
+
 # .
 
 This template should help get you started developing with Vue 3 in Vite.
