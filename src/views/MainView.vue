@@ -1,7 +1,10 @@
 <template>
+    <Header mensaje="texto hola"></Header>
 <div class="container">
     <Sidebar></Sidebar>
 <div class="content">
+    <input type="text" v-model="text">
+    {{ texto }}
     <router-view></router-view>
 
 </div>
@@ -9,7 +12,10 @@
 </template>
 
 <script setup>
-import Sidebar from '../components/Sidebar.vue';
+import Sidebar from '../components/Sidebar.vue'; 
+import Header from '../components/Header.vue'; 
+import {ref} from 'vue';  
+const texto = ref('');
 </script>
 
 <style>
